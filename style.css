@@ -1,0 +1,42 @@
+.title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bolder;
+    color: darkgreen;
+    text-align: center;
+}
+.slider{
+    background: gray;
+}
+.slider__title{
+    text-align: center;
+}
+.slider__cont{
+    width: 167px;
+    height: 167px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+.slider__line{
+    display: flex;
+    height: 167px;
+    width: 668px;
+    background: lightgreen;
+    position: relative;
+    left: 0;
+    transition: all ease 0.5s;
+}
+.slider__btn{
+    display: flex;
+    justify-content: center;
+}
+.slider-next, .slider-back{
+    margin: 15px;
+    justify-self: center;
+    border: 1px solid black;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 7px;
+    width: 130px;
+    height: 40px;
+}
